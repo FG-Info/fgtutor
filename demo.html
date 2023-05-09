@@ -1,0 +1,162 @@
+﻿<html>
+<head>
+<title>Grade 12 ICT Demo Exam</title>
+<meta charset="UTF-8">
+<meta name="author" content="Abiyou Filmon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="demostyle.css">
+
+<script type="text/javascript" src="demoscript.js"></script>
+</head>
+
+<body onload="fun1();">
+
+<table class="header_table">
+<tr>
+<td class="headertd" colspan="5">
+<b class="boldstyle">ICT QUIZ FOR GRADE 12</b>
+</td>
+</tr>
+
+<tr>
+<td class="timertd" colspan="5">
+Time Allowed:10'
+<h3 id= "countup">00:00:00</h3>
+</td>
+</tr>
+
+<tr>
+<td class="namestd">Name <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Grade/Sec <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Roll No <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Date <br><input type="text" class="inputinfo"></td> 
+<td class="namestd"><button id="scorebtn" onclick="showScore()">Show Score</button> <br><label id="reslab"></label></td>
+</tr>
+</table>
+<!--End of header-->
+
+<!--**************************************************************************************************************************-->
+<center>
+<h3>I. <u>Filling blank spaces</u></h3>
+</center>
+
+
+<div id="randomize1">
+
+<!--Fill Q1-->
+<div class="filldiv">
+Corrective Maintenance is also called _______________.
+<label id="fill1marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill1" id="F1">
+<button class="btnchecker" onclick="fillq1checker()">Check</button>
+</div>
+<!--End of Fill Q1-->
+
+<!--Fill Q2-->
+<div class="filldiv">
+Tools used to pick up chips and small components on motherboard are called _______________.
+<label id="fill2marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill2" id="F2">
+<button class="btnchecker" onclick="fillq2checker()">Check</button>
+</div>
+<!--End of Fill Q2-->
+
+<!--Fill Q3-->
+<div class="filldiv">
+Computer hardware that converts AC power to DC power is called _______________.
+<label id="fill3marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill3" id="F3">
+<button class="btnchecker" onclick="fillq3checker()">Check</button>
+</div>
+<!--End of Fill Q3-->
+
+<!--Fill Q4-->
+<div class="filldiv">
+_______________ is complete loose of power that occurs due to lighting strikes and natural disasters.
+<label id="fill4marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill4" id="F4">
+<button class="btnchecker" onclick="fillq4checker()">Check</button>
+</div>
+<!--End of Fill Q4-->
+
+<!--Fill Q5-->
+<div class="filldiv">
+System software types that perform tasks related to control and allocation of computer resources are called _______________ programs.
+<label id="fill5marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill5" id="F5">
+<button class="btnchecker" onclick="fillq5checker()">Check</button>
+</div>
+<!--End of Fill Q5-->
+
+<!--Fill Q6-->
+<div class="filldiv">
+Set of programs that checks and reports problems at start of computer is called _______________.
+<label id="fill6marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill6" id="F6">
+<button class="btnchecker" onclick="fillq6checker()">Check</button>
+</div>
+<!--End of Fill Q6-->
+
+<!--Fill Q7-->
+<div class="filldiv">
+_______________ is combined use of text, graphics, sound, video and animation.
+<label id="fill7marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill7" id="F7">
+<button class="btnchecker" onclick="fillq7checker()">Check</button>
+</div>
+<!--End of Fill Q7-->
+
+<!--Fill Q8-->
+<div class="filldiv">
+Graphics type created with collection of pixels is called _______________ graphics.
+<label id="fill8marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill8" id="F8">
+<button class="btnchecker" onclick="fillq8checker()">Check</button>
+</div>
+<!--End of Fill Q8-->
+
+<!--Fill Q9-->
+<div class="filldiv">
+PNG stands for _______________.
+<label id="fill9marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill9" id="F9">
+<button class="btnchecker" onclick="fillq9checker()">Check</button>
+</div>
+<!--End of Fill Q9-->
+
+<!--Fill Q10-->
+<div class="filldiv">
+_______________ is process of manipulating video by rearranging different shots and scenes.
+<label id="fill10marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill10" id="F10">
+<button class="btnchecker" onclick="fillq10checker()">Check</button>
+</div>
+<!--End of Fill Q10-->
+
+</div>
+<!--End of randomize 1-->
+
+<!--**************************************************************************************************************************-->
+<hr>
+<p id="myinfo">
+Set by: Abiyou Filmon
+</p>
+<hr>
+<!--**************************************************************************************************************************-->
+
+
+
+
+
+</body>
+</html>

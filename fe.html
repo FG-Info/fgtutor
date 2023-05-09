@@ -1,0 +1,1914 @@
+﻿<html>
+<head>
+<title>Grade 12 ICT Final Exam</title>
+<meta charset="UTF-8">
+<meta name="author" content="Abiyou Filmon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+table.infotable{width:100%; border:solid 1px magenta; color:blue;}
+td.headertd{text-align:center; font-weight:bolder; color:blue; font-size:1.3em;}
+td.timertd{text-align:right; font-weight:bolder; color:red; font-size:1em; padding-right:15px;}
+td.namestd{text-align:center; font-weight:bolder; color:blue; font-size:1em;}
+input.inputinfo{width:100%; height:30px; padding:2px; color:red; text-align:center; font-weight:bolder; border:solid 1px pink;}
+b.boldstyle{color:green;}
+label#reslab{color:red;}
+h3{color:red;}
+div.questdiv{margin:5px; padding:5px; border:solid 1px magenta; border-radius:5px; color:blue;}
+div.matchdiv{margin:5px; padding:5px; color:blue;}
+div.choicediv{margin:5px; padding:5px; border:solid 1px magenta; border-radius:5px; color:blue;}
+div.filldiv{margin:5px; padding:5px; border:solid 1px magenta; border-radius:5px; color:blue;}
+input.tfstyle{margin-left:50px; cursor:pointer;}
+input.matcor{width:30px; margin-left:5px; padding:5px; cursor:pointer; text-align:center; color:red; font-weight:bold;}
+table.mattable{width:100%; margin-top:3px; border:solid 1px magenta; border-radius:5px;}
+td.ltd{color:blue; vertical-align:top;}
+td.rtd{color:blue; vertical-align:top; line-height:25px;}
+td.topltd{color:blue;}
+td.toprtd{color:blue;}
+span{margin-left:80px; color:red;}
+input.choicequest{cursor:pointer;}
+input.fillquest{width:250px; margin-top:3px; padding:3px; cursor:pointer; color:red; font-weight:bold;}
+td.lefttd{color:blue; padding-left:50px;}
+td.righttd{color:blue; padding-left:50px;}
+td.cortd{padding-left:100px; text-align:left;}
+button#scorebtn{cursor:pointer;}
+button.btnchecker{margin-left:5px; cursor:pointer; color:red; background-color:yellow;}
+label.ansteller{color:red; margin-left:15px;}
+p#myinfo{text-align:right; margin-bottom:50px; padding-right:150px; font-family:"monotype corsiva"; font-weight:bolder; color:magenta;}
+</style>
+</head>
+
+<body onload="fun1(); fun2(); fun3(); ">
+
+<table class="infotable">
+<tr>
+<td class="headertd" colspan="5">
+<b class="boldstyle">ASSAI PRIMARY AND SECONDARY PUBLIC SCHOOL<br>2015 E.C SECOND SEMESTER ICT FINAL EXAM FOR GRADE 12</b>
+</td>
+</tr>
+
+<tr>
+<td class="timertd" colspan="5">
+Time Allowed:30'
+<h3 id= "countup">00:00:00</h3>
+</td>
+</tr>
+
+<tr>
+<td class="namestd">Name <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Grade/Sec <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Roll No <br><input type="text" class="inputinfo"></td> 
+<td class="namestd">Date <br><input type="text" class="inputinfo"></td> 
+<td class="namestd"><button id="scorebtn" onclick="showScore()">Show Score</button> <br><label id="reslab"></label></td>
+</tr>
+</table>
+<!--End of header-->
+<!--**************************************************************************************************************************-->
+<center>
+<h3>I. <u>True/False.</u></h3>
+</center>
+
+<div id="randomize1">
+
+<!--T/F Question 4-->
+<div class="questdiv">
+Troubleshooting is preventing computer before it fails to operate properly.
+<label id="tfq4marker" class="ansteller"></label>
+<br>
+<input type="radio" class="tfstyle" id="TFQ4T" onclick="tfq4check()">True
+<input type="radio" class="tfstyle" id="TFQ4F" onclick="tfq4check()">False
+</div>
+<!--End of T/F Question 4-->
+
+<!--T/F Question 6-->
+<div class="questdiv">
+VGA Port connects power cable.
+<label id="tfq6marker" class="ansteller"></label>
+<br>
+<input type="radio" class="tfstyle" id="TFQ6T" onclick="tfq6check()">True
+<input type="radio" class="tfstyle" id="TFQ6F" onclick="tfq6check()">False
+</div>
+<!--End of T/F Question 6-->
+
+<!--T/F Question 8-->
+<div class="questdiv">
+Power distributed to motherboard components is called AC power.
+<label id="tfq8marker" class="ansteller"></label>
+<br>
+<input type="radio" class="tfstyle" id="TFQ8T" onclick="tfq8check()">True
+<input type="radio" class="tfstyle" id="TFQ8F" onclick="tfq8check()">False
+</div>
+<!--End of T/F Question 8-->
+
+<!--T/F Question 24-->
+<div class="questdiv">
+Raster Graphics is created with collection of mathematical formulas that define shapes and colors.
+<label id="tfq24marker" class="ansteller"></label>
+<br>
+<input type="radio" class="tfstyle" id="TFQ24T" onclick="tfq24check()">True
+<input type="radio" class="tfstyle" id="TFQ24F" onclick="tfq24check()">False
+</div>
+<!--End of T/F Question 24-->
+
+<!--T/F Question 25-->
+<div class="questdiv">
+Footage is video clip that can be used as input for video production.
+<label id="tfq25marker" class="ansteller"></label>
+<br>
+<input type="radio" class="tfstyle" id="TFQ25T" onclick="tfq25check()">True
+<input type="radio" class="tfstyle" id="TFQ25F" onclick="tfq25check()">False
+</div>
+<!--End of T/F Question 25-->
+
+</div>
+<!--End of randomize1-->
+<!--**************************************************************************************************************************-->
+<center>
+<h3>II. <u>Matching.</u></h3>
+</center>
+
+
+<table class="mattable">
+<tr>
+<td class="topltd"><span><u>Column A</u></span></td> <td class="toprtd"><span><u>Column B</u></span></td> 
+</tr>
+
+<tr>
+<td class="ltd">
+
+<div id="randomize2">
+<!--Matching Question 2-->
+<div class="matchdiv">
+<input type="text" class="matcor" name="mat2" id="M2" oninput="mat2checker()">
+Bitmap Graphics
+<label id="matq2marker" class="ansteller"></label>
+</div>
+<!--End of Match Question 2-->
+
+<!--Matching Question 3-->
+<div class="matchdiv">
+<input type="text" class="matcor" name="mat3" id="M3" oninput="mat3checker()">
+Transition
+<label id="matq3marker" class="ansteller"></label>
+</div>
+<!--End of Match Question 3-->
+
+<!--Matching Question 5-->
+<div class="matchdiv">
+<input type="text" class="matcor" name="mat5" id="M5" oninput="mat5checker()">
+Video Effect
+<label id="matq5marker" class="ansteller"></label>
+</div>
+<!--End of Match Question 5-->
+
+<!--Matching Question 8-->
+<div class="matchdiv">
+<input type="text" class="matcor" name="mat8" id="M8" oninput="mat8checker()">
+Vector Graphics
+<label id="matq8marker" class="ansteller"></label>
+</div>
+<!--End of Match Question 8-->
+
+<!--Matching Question 9-->
+<div class="matchdiv">
+<input type="text" class="matcor" name="mat9" id="M9" oninput="mat9checker()">
+Sequence
+<label id="matq9marker" class="ansteller"></label>
+</div>
+<!--End of Match Question 9-->
+
+</div>
+<!--End of randomize 2-->
+</td>
+
+<td class="rtd">
+A. Assembling media contents using available software tools<br>
+B. Animated motion that changes appearance of video clips<br>
+C. Graphics created with combination of mathematical formulas<br>
+D. Process of selecting available color models<br>
+E. Source file used as input for video production<br>
+F. Graphics created with combination of pixels<br>
+G. Video Clip added into timeline view<br>
+H. The way one scene changes to the next with a different motion<br>
+I. Proportional relation between width and height of video dimension
+</td>
+</tr>
+</table>
+
+<!--**************************************************************************************************************************-->
+<center>
+<h3>III. <u>Multiple Choice</u></h3>
+</center>
+
+
+<div id="randomize3">
+
+<!--Choice Q1-->
+<div class="choicediv">
+Port type used to connect monitor data cable to system unit
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq1" id="choiceq1A" onclick="choiceq1check()">A. Joystick Port<br>
+<input type="radio" class="choicequest" name="choiceq1" id="choiceq1B" onclick="choiceq1check()">B. USB Port
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq1" id="choiceq1C" onclick="choiceq1check()">C. Printer Port<br>
+<input type="radio" class="choicequest" name="choiceq1" id="choiceq1D" onclick="choiceq1check()">D. VGA Port
+</td>
+<td class="cortd">
+<label id="choice1marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q1-->
+
+<!--Choice Q2-->
+<div class="choicediv">
+Which one is true of RJ-45 Port?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq2" id="choiceq2A" onclick="choiceq2check()">A. Connects Joystick Cable<br>
+<input type="radio" class="choicequest" name="choiceq2" id="choiceq2B" onclick="choiceq2check()">B. Connects Power Cable 
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq2" id="choiceq2C" onclick="choiceq2check()">C. Connects Network Cable<br>
+<input type="radio" class="choicequest" name="choiceq2" id="choiceq2D" onclick="choiceq2check()">D. Connects Flash Disk
+</td>
+<td class="cortd">
+<label id="choice2marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q2-->
+
+<!--Choice Q4-->
+<div class="choicediv">
+Complete loose of power problem is called_______________
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq4" id="choiceq4A" onclick="choiceq4check()">A. Brownout<br>
+<input type="radio" class="choicequest" name="choiceq4" id="choiceq4B" onclick="choiceq4check()">B. Power Surge 
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq4" id="choiceq4C" onclick="choiceq4check()">C. Blackout<br>
+<input type="radio" class="choicequest" name="choiceq4" id="choiceq4D" onclick="choiceq4check()">D. Power Spike
+</td>
+<td class="cortd">
+<label id="choice4marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q4-->
+
+<!--Choice Q6-->
+<div class="choicediv">
+Tools used to pick up small components on motherboard are called ______________
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq6" id="choiceq6A" onclick="choiceq6check()">A. Pliers<br>
+<input type="radio" class="choicequest" name="choiceq6" id="choiceq6B" onclick="choiceq6check()">B. Screw Drivers
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq6" id="choiceq6C" onclick="choiceq6check()">C. Tweezers<br>
+<input type="radio" class="choicequest" name="choiceq6" id="choiceq6D" onclick="choiceq6check()">D. No answer
+</td>
+<td class="cortd">
+<label id="choice6marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q6-->
+
+<!--Choice Q8-->
+<div class="choicediv">
+VGA stands for ________________________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq8" id="choiceq8A" onclick="choiceq8check()">A. Video Group Adapter<br>
+<input type="radio" class="choicequest" name="choiceq8" id="choiceq8B" onclick="choiceq8check()">B. Video Graphics Adapter
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq8" id="choiceq8C" onclick="choiceq8check()">C. Video Graphics Authoring<br>
+<input type="radio" class="choicequest" name="choiceq8" id="choiceq8D" onclick="choiceq8check()">D. Video Graph Audition
+</td>
+<td class="cortd">
+<label id="choice8marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q8-->
+
+<!--Choice Q9-->
+<div class="choicediv">
+What degree measure is labeled as a guide on processor to insert it into its socket?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq9" id="choiceq9A" onclick="choiceq9check()">A. 45&deg<br>
+<input type="radio" class="choicequest" name="choiceq9" id="choiceq9B" onclick="choiceq9check()">B. 30&deg
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq9" id="choiceq9C" onclick="choiceq9check()">C. 15&deg<br>
+<input type="radio" class="choicequest" name="choiceq9" id="choiceq9D" onclick="choiceq9check()">D. 60&deg
+</td>
+<td class="cortd">
+<label id="choice9marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q9-->
+
+<!--Choice Q10-->
+<div class="choicediv">
+Utility programs used to duplicate or make copy of data are called ___________ programs.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq10" id="choiceq10A" onclick="choiceq10check()">A. Data Recovery<br>
+<input type="radio" class="choicequest" name="choiceq10" id="choiceq10B" onclick="choiceq10check()">B. Data Compression
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq10" id="choiceq10C" onclick="choiceq10check()">C. Data Backup<br>
+<input type="radio" class="choicequest" name="choiceq10" id="choiceq10D" onclick="choiceq10check()">D. Antiviruse
+</td>
+<td class="cortd">
+<label id="choice10marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q10-->
+
+<!--Choice Q11-->
+<div class="choicediv">
+What amount of AC power is accepted by computer?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq11" id="choiceq11A" onclick="choiceq11check()">A. 230 Volt<br>
+<input type="radio" class="choicequest" name="choiceq11" id="choiceq11B" onclick="choiceq11check()">B. 350 Volt
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq11" id="choiceq11C" onclick="choiceq11check()">C. 130 Volt<br>
+<input type="radio" class="choicequest" name="choiceq11" id="choiceq11D" onclick="choiceq11check()">D. 120 Volt
+</td>
+<td class="cortd">
+<label id="choice11marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q11-->
+
+<!--Choice Q14-->
+<div class="choicediv">
+Which one of the following is Antiviruse Program?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq14" id="choiceq14A" onclick="choiceq14check()">A. Fone Paw<br>
+<input type="radio" class="choicequest" name="choiceq14" id="choiceq14B" onclick="choiceq14check()">B. Stellar
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq14" id="choiceq14C" onclick="choiceq14check()">C. McAfee<br>
+<input type="radio" class="choicequest" name="choiceq14" id="choiceq14D" onclick="choiceq14check()">D. PK ZIP
+</td>
+<td class="cortd">
+<label id="choice14marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q14-->
+
+<!--Choice Q15-->
+<div class="choicediv">
+UPS stands for ______________________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq15" id="choiceq15A" onclick="choiceq15check()">A. Uninterruptible Power Supply<br>
+<input type="radio" class="choicequest" name="choiceq15" id="choiceq15B" onclick="choiceq15check()">B. Unified Power System
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq15" id="choiceq15C" onclick="choiceq15check()">C. United People System<br>
+<input type="radio" class="choicequest" name="choiceq15" id="choiceq15D" onclick="choiceq15check()">D. Uniform Pest Sanitizer
+</td>
+<td class="cortd">
+<label id="choice15marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q15-->
+
+<!--Choice Q16-->
+<div class="choicediv">
+A single beep sound at start up of computer is an indication of
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq16" id="choiceq16A" onclick="choiceq16check()">A. Keyboard Error<br>
+<input type="radio" class="choicequest" name="choiceq16" id="choiceq16B" onclick="choiceq16check()">B. Memory Error
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq16" id="choiceq16C" onclick="choiceq16check()">C. Processor Error<br>
+<input type="radio" class="choicequest" name="choiceq16" id="choiceq16D" onclick="choiceq16check()">D. No Error
+</td>
+<td class="cortd">
+<label id="choice16marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q16-->
+
+<!--Choice Q17-->
+<div class="choicediv">
+A 32 bit based Windows 7 operating system can be installed on computer with ________capacity of memory.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq17" id="choiceq17A" onclick="choiceq17check()">A. 512 MB<br>
+<input type="radio" class="choicequest" name="choiceq17" id="choiceq17B" onclick="choiceq17check()">B. 1 GB
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq17" id="choiceq17C" onclick="choiceq17check()">C. 256 MB<br>
+<input type="radio" class="choicequest" name="choiceq17" id="choiceq17D" onclick="choiceq17check()">D. 128 MB
+</td>
+<td class="cortd">
+<label id="choice17marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q17-->
+
+<!--Choice Q18-->
+<div class="choicediv">
+What will be possible solution if Monitor Screen goes blank?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq18" id="choiceq18A" onclick="choiceq18check()">A. Check for power chord<br>
+<input type="radio" class="choicequest" name="choiceq18" id="choiceq18B" onclick="choiceq18check()">B. Check for brightness
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq18" id="choiceq18C" onclick="choiceq18check()">C. Check for VGA cable<br>
+<input type="radio" class="choicequest" name="choiceq18" id="choiceq18D" onclick="choiceq18check()">D. All
+</td>
+<td class="cortd">
+<label id="choice18marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q18-->
+
+<!--Choice Q19-->
+<div class="choicediv">
+A 64 bit based Office Package Programs can be installed on computer with ________ capacity of memory.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq19" id="choiceq19A" onclick="choiceq19check()">A. 2 GB<br>
+<input type="radio" class="choicequest" name="choiceq19" id="choiceq19B" onclick="choiceq19check()">B. 512 MB
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq19" id="choiceq19C" onclick="choiceq19check()">C. 1 GB<br>
+<input type="radio" class="choicequest" name="choiceq19" id="choiceq19D" onclick="choiceq19check()">D. 256 MB
+</td>
+<td class="cortd">
+<label id="choice19marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q19-->
+
+<!--Choice Q20-->
+<div class="choicediv">
+Keyboard Error is indicated by ____________________________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq20" id="choiceq20A" onclick="choiceq20check()">A. One long and one short beep sound<br>
+<input type="radio" class="choicequest" name="choiceq20" id="choiceq20B" onclick="choiceq20check()">B. Three short and one long beep sound
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq20" id="choiceq20C" onclick="choiceq20check()">C. Continous beep sound<br>
+<input type="radio" class="choicequest" name="choiceq20" id="choiceq20D" onclick="choiceq20check()">D. Single beep sound
+</td>
+<td class="cortd">
+<label id="choice20marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q20-->
+
+<!--Choice Q22-->
+<div class="choicediv">
+Which one is image file format?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq22" id="choiceq22A" onclick="choiceq22check()">A. WAV<br>
+<input type="radio" class="choicequest" name="choiceq22" id="choiceq22B" onclick="choiceq22check()">B. AVI
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq22" id="choiceq22C" onclick="choiceq22check()">C. WMA<br>
+<input type="radio" class="choicequest" name="choiceq22" id="choiceq22D" onclick="choiceq22check()">D. PNG
+</td>
+<td class="cortd">
+<label id="choice22marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q22-->
+
+<!--Choice Q24-->
+<div class="choicediv">
+Which file format results in loweset image quality?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq24" id="choiceq24A" onclick="choiceq24check()">A. GIF<br>
+<input type="radio" class="choicequest" name="choiceq24" id="choiceq24B" onclick="choiceq24check()">B. JPEG
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq24" id="choiceq24C" onclick="choiceq24check()">C. PSD<br>
+<input type="radio" class="choicequest" name="choiceq24" id="choiceq24D" onclick="choiceq24check()">D. TIFF
+</td>
+<td class="cortd">
+<label id="choice24marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q24-->
+
+<!--Choice Q25-->
+<div class="choicediv">
+How many types of Multimedia Authoring Stages are there?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq25" id="choiceq25A" onclick="choiceq25check()">A. 3<br>
+<input type="radio" class="choicequest" name="choiceq25" id="choiceq25B" onclick="choiceq25check()">B. 4
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq25" id="choiceq25C" onclick="choiceq25check()">C. 8<br>
+<input type="radio" class="choicequest" name="choiceq25" id="choiceq25D" onclick="choiceq25check()">D. 5
+</td>
+<td class="cortd">
+<label id="choice25marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q25-->
+
+<!--Choice Q26-->
+<div class="choicediv">
+Which one is not raster type graphics file format? 
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq26" id="choiceq26A" onclick="choiceq26check()">A. PNG<br>
+<input type="radio" class="choicequest" name="choiceq26" id="choiceq26B" onclick="choiceq26check()">B. PDF
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq26" id="choiceq26C" onclick="choiceq26check()">C. GIF<br>
+<input type="radio" class="choicequest" name="choiceq26" id="choiceq26D" onclick="choiceq26check()">D. JPEG
+</td>
+<td class="cortd">
+<label id="choice26marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q26-->
+
+<!--Choice Q27-->
+<div class="choicediv">
+Which one is video file format?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq27" id="choiceq27A" onclick="choiceq27check()">A. MPEG<br>
+<input type="radio" class="choicequest" name="choiceq27" id="choiceq27B" onclick="choiceq27check()">B. MIDI
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq27" id="choiceq27C" onclick="choiceq27check()">C. MP3<br>
+<input type="radio" class="choicequest" name="choiceq27" id="choiceq27D" onclick="choiceq27check()">D. WMA
+</td>
+<td class="cortd">
+<label id="choice27marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q27-->
+
+<!--Choice Q28-->
+<div class="choicediv">
+Multimedia Authoring process that refers to creating storyboards to tell story of project is called ___________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq28" id="choiceq28A" onclick="choiceq28check()">A. Analysis<br>
+<input type="radio" class="choicequest" name="choiceq28" id="choiceq28B" onclick="choiceq28check()">B. Design
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq28" id="choiceq28C" onclick="choiceq28check()">C. Evaluation<br>
+<input type="radio" class="choicequest" name="choiceq28" id="choiceq28D" onclick="choiceq28check()">D. Development
+</td>
+<td class="cortd">
+<label id="choice28marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q28-->
+
+<!--Choice Q32-->
+<div class="choicediv">
+Which one is video editing software?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq32" id="choiceq32A" onclick="choiceq32check()">A. Premiere Pro<br>
+<input type="radio" class="choicequest" name="choiceq32" id="choiceq32B" onclick="choiceq32check()">B. AVS
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq32" id="choiceq32C" onclick="choiceq32check()">C. Filmora<br>
+<input type="radio" class="choicequest" name="choiceq32" id="choiceq32D" onclick="choiceq32check()">D. All
+</td>
+<td class="cortd">
+<label id="choice32marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q32-->
+
+<!--Choice Q34-->
+<div class="choicediv">
+Which one is audio file format?
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq34" id="choiceq34A" onclick="choiceq34check()">A. MIDI<br>
+<input type="radio" class="choicequest" name="choiceq34" id="choiceq34B" onclick="choiceq34check()">B. MPEG
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq34" id="choiceq34C" onclick="choiceq34check()">C. AVI<br>
+<input type="radio" class="choicequest" name="choiceq34" id="choiceq34D" onclick="choiceq34check()">D. JPEG
+</td>
+<td class="cortd">
+<label id="choice34marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q34-->
+
+<!--Choice Q35-->
+<div class="choicediv">
+Standard video has aspect ratio of _______________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq35" id="choiceq35A" onclick="choiceq35check()">A. 16:9<br>
+<input type="radio" class="choicequest" name="choiceq35" id="choiceq35B" onclick="choiceq35check()">B. 10:5
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq35" id="choiceq35C" onclick="choiceq35check()">C. 4:3<br>
+<input type="radio" class="choicequest" name="choiceq35" id="choiceq35D" onclick="choiceq35check()">D. 2:1
+</td>
+<td class="cortd">
+<label id="choice35marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q35-->
+
+<!--Choice Q38-->
+<div class="choicediv">
+Footage is ______________________________.
+<table class="choicetable">
+<tr>
+<td class="lefttd">
+<input type="radio" class="choicequest" name="choiceq38" id="choiceq38A" onclick="choiceq38check()">A. Source file used as input for video production<br>
+<input type="radio" class="choicequest" name="choiceq38" id="choiceq38B" onclick="choiceq38check()">B. Relationship between width and height of video
+</td>
+<td class="righttd">
+<input type="radio" class="choicequest" name="choiceq38" id="choiceq38C" onclick="choiceq38check()">C. The way one scene changes to next with different motion<br>
+<input type="radio" class="choicequest" name="choiceq38" id="choiceq38D" onclick="choiceq38check()">D. Special animated motion that changes appearance of video
+</td>
+<td class="cortd">
+<label id="choice38marker" class="ansteller"></label>
+</td>
+</tr>
+</table>
+</div>
+<!--End of Choice Q38-->
+
+</div>
+<!--End of randomize 3-->
+
+<!--**************************************************************************************************************************-->
+<center>
+<h3>IV. <u>Filling blank spaces</u></h3>
+</center>
+
+
+<div id="randomize4">
+
+<!--Fill Q2-->
+<div class="filldiv">
+Corrective Maintenance is also called _______________.
+<label id="fill2marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill2" id="F2">
+<button class="btnchecker" onclick="fillq2checker()">Check</button>
+</div>
+<!--End of Fill Q2-->
+
+<!--Fill Q7-->
+<div class="filldiv">
+Programs that indicate computer problems at start up of computer are called _______________.
+<label id="fill7marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill7" id="F7">
+<button class="btnchecker" onclick="fillq7checker()">Check</button>
+</div>
+<!--End of Fill Q7-->
+
+<!--Fill Q8-->
+<div class="filldiv">
+_______________ is combined use of text, images, sound, video and animation. 
+<label id="fill8marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill8" id="F8">
+<button class="btnchecker" onclick="fillq8checker()">Check</button>
+</div>
+<!--End of Fill Q8-->
+
+<!--Fill Q13-->
+<div class="filldiv">
+Process of editing video by rearranging different shots and scenes is called _______________.
+<label id="fill13marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill13" id="F13">
+<button class="btnchecker" onclick="fillq13checker()">Check</button>
+</div>
+<!--End of Fill Q13-->
+
+<!--Fill Q15-->
+<div class="filldiv">
+_______________ is relation between width and height of video dimensions. 
+<label id="fill15marker" class="ansteller"></label>
+<br>
+Answer:<input type="text" class="fillquest" name="fill15" id="F15">
+<button class="btnchecker" onclick="fillq15checker()">Check</button>
+</div>
+<!--End of Fill Q15-->
+
+</div>
+<!--End of randomize 4-->
+
+<!--**************************************************************************************************************************-->
+<hr>
+<p id="myinfo">
+Set by: Abiyou Filmon
+</p>
+<hr>
+<!--**************************************************************************************************************************-->
+
+
+
+
+<script type="text/javascript">
+
+function fun1()
+{
+ var parent1 = document.getElementById("randomize1");
+ var frag1 = document.createDocumentFragment();
+	while(parent1.children.length)
+	  {
+		frag1.appendChild(parent1.children[Math.floor(Math.random() * parent1.children.length)]);
+	  }	
+	parent1.appendChild(frag1);
+	onload = fun1;
+}
+
+function fun2()
+{
+ var parent2 = document.getElementById("randomize2");
+ var frag2 = document.createDocumentFragment();
+	while(parent2.children.length)
+	  {
+		frag2.appendChild(parent2.children[Math.floor(Math.random() * parent2.children.length)]);
+	  }	
+	parent2.appendChild(frag2);
+	onload = fun2;
+}
+
+function fun3()
+{
+ var parent3 = document.getElementById("randomize3");
+ var frag3 = document.createDocumentFragment();
+	while(parent3.children.length)
+	  {
+		frag3.appendChild(parent3.children[Math.floor(Math.random() * parent3.children.length)]);
+	  }	
+	parent3.appendChild(frag3);
+	onload = fun3;
+}
+</script>
+
+<script type="text/javascript">
+var score=0;
+
+//*******************True / False***********************************************************************************************
+function tfq4check()
+{
+var tfq4t=document.getElementById("TFQ4T");
+var tfq4f=document.getElementById("TFQ4F");
+if(tfq4f.checked)
+{
+document.getElementById("tfq4marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("tfq4marker").innerHTML="&#10006";
+}
+tfq4t.disabled=true;
+tfq4f.disabled=true;
+}
+
+function tfq6check()
+{
+var tfq6t=document.getElementById("TFQ6T");
+var tfq6f=document.getElementById("TFQ6F");
+if(tfq6f.checked)
+{
+document.getElementById("tfq6marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("tfq6marker").innerHTML="&#10006";
+}
+tfq6t.disabled=true;
+tfq6f.disabled=true;
+}
+
+function tfq8check()
+{
+var tfq8t=document.getElementById("TFQ8T");
+var tfq8f=document.getElementById("TFQ8F");
+if(tfq8f.checked)
+{
+document.getElementById("tfq8marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("tfq8marker").innerHTML="&#10006";
+}
+tfq8t.disabled=true;
+tfq8f.disabled=true;
+}
+
+function tfq24check()
+{
+var tfq24t=document.getElementById("TFQ24T");
+var tfq24f=document.getElementById("TFQ24F");
+if(tfq24f.checked)
+{
+document.getElementById("tfq24marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("tfq24marker").innerHTML="&#10006";
+}
+tfq24t.disabled=true;
+tfq24f.disabled=true;
+}
+
+function tfq25check()
+{
+var tfq25t=document.getElementById("TFQ25T");
+var tfq25f=document.getElementById("TFQ25F");
+if(tfq25t.checked)
+{
+document.getElementById("tfq25marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("tfq25marker").innerHTML="&#10006";
+}
+tfq25t.disabled=true;
+tfq25f.disabled=true;
+}
+//*******************Matching***************************************************************************************************
+function mat2checker()
+{
+var m2=document.getElementById("M2");
+if(m2.value.toLowerCase() == "f")
+{
+document.getElementById("matq2marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("matq2marker").innerHTML="&#10006";
+}
+m2.disabled=true;
+}
+
+function mat3checker()
+{
+var m3=document.getElementById("M3");
+if(m3.value.toLowerCase() == "h")
+{
+document.getElementById("matq3marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("matq3marker").innerHTML="&#10006";
+}
+m3.disabled=true;
+}
+
+function mat5checker()
+{
+var m5=document.getElementById("M5");
+if(m5.value.toLowerCase() == "b")
+{
+document.getElementById("matq5marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("matq5marker").innerHTML="&#10006";
+}
+m5.disabled=true;
+}
+
+function mat8checker()
+{
+var m8=document.getElementById("M8");
+if(m8.value.toLowerCase() == "c")
+{
+document.getElementById("matq8marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("matq8marker").innerHTML="&#10006";
+}
+m8.disabled=true;
+}
+
+function mat9checker()
+{
+var m9=document.getElementById("M9");
+if(m9.value.toLowerCase() == "e")
+{
+document.getElementById("matq9marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("matq9marker").innerHTML="&#10006";
+}
+m9.disabled=true;
+}
+
+//*******************Multiple Choice********************************************************************************************
+function choiceq1check()
+{
+var chq1a=document.getElementById("choiceq1A");
+var chq1b=document.getElementById("choiceq1B");
+var chq1c=document.getElementById("choiceq1C");
+var chq1d=document.getElementById("choiceq1D");
+
+if (chq1d.checked)
+{
+document.getElementById("choice1marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice1marker").innerHTML="&#10006";
+}	
+chq1a.disabled=true;
+chq1b.disabled=true;
+chq1c.disabled=true;
+chq1d.disabled=true;
+}
+
+function choiceq2check()
+{
+var chq2a=document.getElementById("choiceq2A");
+var chq2b=document.getElementById("choiceq2B");
+var chq2c=document.getElementById("choiceq2C");
+var chq2d=document.getElementById("choiceq2D");
+
+if (chq2c.checked)
+{
+document.getElementById("choice2marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice2marker").innerHTML="&#10006";
+}	
+chq2a.disabled=true;
+chq2b.disabled=true;
+chq2c.disabled=true;
+chq2d.disabled=true;
+}
+
+function choiceq4check()
+{
+var chq4a=document.getElementById("choiceq4A");
+var chq4b=document.getElementById("choiceq4B");
+var chq4c=document.getElementById("choiceq4C");
+var chq4d=document.getElementById("choiceq4D");
+
+if (chq4c.checked)
+{
+document.getElementById("choice4marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice4marker").innerHTML="&#10006";
+}	
+chq4a.disabled=true;
+chq4b.disabled=true;
+chq4c.disabled=true;
+chq4d.disabled=true;
+}
+
+function choiceq6check()
+{
+var chq6a=document.getElementById("choiceq6A");
+var chq6b=document.getElementById("choiceq6B");
+var chq6c=document.getElementById("choiceq6C");
+var chq6d=document.getElementById("choiceq6D");
+
+if (chq6c.checked)
+{
+document.getElementById("choice6marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice6marker").innerHTML="&#10006";
+}	
+chq6a.disabled=true;
+chq6b.disabled=true;
+chq6c.disabled=true;
+chq6d.disabled=true;
+}
+
+function choiceq8check()
+{
+var chq8a=document.getElementById("choiceq8A");
+var chq8b=document.getElementById("choiceq8B");
+var chq8c=document.getElementById("choiceq8C");
+var chq8d=document.getElementById("choiceq8D");
+
+if (chq8b.checked)
+{
+document.getElementById("choice8marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice8marker").innerHTML="&#10006";
+}	
+chq8a.disabled=true;
+chq8b.disabled=true;
+chq8c.disabled=true;
+chq8d.disabled=true;
+}
+
+function choiceq9check()
+{
+var chq9a=document.getElementById("choiceq9A");
+var chq9b=document.getElementById("choiceq9B");
+var chq9c=document.getElementById("choiceq9C");
+var chq9d=document.getElementById("choiceq9D");
+
+if (chq9a.checked)
+{
+document.getElementById("choice9marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice9marker").innerHTML="&#10006";
+}	
+chq9a.disabled=true;
+chq9b.disabled=true;
+chq9c.disabled=true;
+chq9d.disabled=true;
+}
+
+function choiceq10check()
+{
+var chq10a=document.getElementById("choiceq10A");
+var chq10b=document.getElementById("choiceq10B");
+var chq10c=document.getElementById("choiceq10C");
+var chq10d=document.getElementById("choiceq10D");
+
+if (chq10c.checked)
+{
+document.getElementById("choice10marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice10marker").innerHTML="&#10006";
+}	
+chq10a.disabled=true;
+chq10b.disabled=true;
+chq10c.disabled=true;
+chq10d.disabled=true;
+}
+
+function choiceq11check()
+{
+var chq11a=document.getElementById("choiceq11A");
+var chq11b=document.getElementById("choiceq11B");
+var chq11c=document.getElementById("choiceq11C");
+var chq11d=document.getElementById("choiceq11D");
+
+if (chq11a.checked)
+{
+document.getElementById("choice11marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice11marker").innerHTML="&#10006";
+}	
+chq11a.disabled=true;
+chq11b.disabled=true;
+chq11c.disabled=true;
+chq11d.disabled=true;
+}
+
+function choiceq14check()
+{
+var chq14a=document.getElementById("choiceq14A");
+var chq14b=document.getElementById("choiceq14B");
+var chq14c=document.getElementById("choiceq14C");
+var chq14d=document.getElementById("choiceq14D");
+
+if (chq14c.checked)
+{
+document.getElementById("choice14marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice14marker").innerHTML="&#10006";
+}	
+chq14a.disabled=true;
+chq14b.disabled=true;
+chq14c.disabled=true;
+chq14d.disabled=true;
+}
+
+function choiceq15check()
+{
+var chq15a=document.getElementById("choiceq15A");
+var chq15b=document.getElementById("choiceq15B");
+var chq15c=document.getElementById("choiceq15C");
+var chq15d=document.getElementById("choiceq15D");
+
+if (chq15a.checked)
+{
+document.getElementById("choice15marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice15marker").innerHTML="&#10006";
+}	
+chq15a.disabled=true;
+chq15b.disabled=true;
+chq15c.disabled=true;
+chq15d.disabled=true;
+}
+
+function choiceq16check()
+{
+var chq16a=document.getElementById("choiceq16A");
+var chq16b=document.getElementById("choiceq16B");
+var chq16c=document.getElementById("choiceq16C");
+var chq16d=document.getElementById("choiceq16D");
+
+if (chq16d.checked)
+{
+document.getElementById("choice16marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice16marker").innerHTML="&#10006";
+}	
+chq16a.disabled=true;
+chq16b.disabled=true;
+chq16c.disabled=true;
+chq16d.disabled=true;
+}
+
+function choiceq17check()
+{
+var chq17a=document.getElementById("choiceq17A");
+var chq17b=document.getElementById("choiceq17B");
+var chq17c=document.getElementById("choiceq17C");
+var chq17d=document.getElementById("choiceq17D");
+
+if (chq17b.checked)
+{
+document.getElementById("choice17marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice17marker").innerHTML="&#10006";
+}	
+chq17a.disabled=true;
+chq17b.disabled=true;
+chq17c.disabled=true;
+chq17d.disabled=true;
+}
+
+function choiceq18check()
+{
+var chq18a=document.getElementById("choiceq18A");
+var chq18b=document.getElementById("choiceq18B");
+var chq18c=document.getElementById("choiceq18C");
+var chq18d=document.getElementById("choiceq18D");
+
+if (chq18d.checked)
+{
+document.getElementById("choice18marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice18marker").innerHTML="&#10006";
+}	
+chq18a.disabled=true;
+chq18b.disabled=true;
+chq18c.disabled=true;
+chq18d.disabled=true;
+}
+
+function choiceq19check()
+{
+var chq19a=document.getElementById("choiceq19A");
+var chq19b=document.getElementById("choiceq19B");
+var chq19c=document.getElementById("choiceq19C");
+var chq19d=document.getElementById("choiceq19D");
+
+if (chq19a.checked)
+{
+document.getElementById("choice19marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice19marker").innerHTML="&#10006";
+}	
+chq19a.disabled=true;
+chq19b.disabled=true;
+chq19c.disabled=true;
+chq19d.disabled=true;
+}
+
+function choiceq20check()
+{
+var chq20a=document.getElementById("choiceq20A");
+var chq20b=document.getElementById("choiceq20B");
+var chq20c=document.getElementById("choiceq20C");
+var chq20d=document.getElementById("choiceq20D");
+
+if (chq20c.checked)
+{
+document.getElementById("choice20marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice20marker").innerHTML="&#10006";
+}	
+chq20a.disabled=true;
+chq20b.disabled=true;
+chq20c.disabled=true;
+chq20d.disabled=true;
+}
+
+function choiceq22check()
+{
+var chq22a=document.getElementById("choiceq22A");
+var chq22b=document.getElementById("choiceq22B");
+var chq22c=document.getElementById("choiceq22C");
+var chq22d=document.getElementById("choiceq22D");
+
+if (chq22d.checked)
+{
+document.getElementById("choice22marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice22marker").innerHTML="&#10006";
+}	
+chq22a.disabled=true;
+chq22b.disabled=true;
+chq22c.disabled=true;
+chq22d.disabled=true;
+}
+
+function choiceq24check()
+{
+var chq24a=document.getElementById("choiceq24A");
+var chq24b=document.getElementById("choiceq24B");
+var chq24c=document.getElementById("choiceq24C");
+var chq24d=document.getElementById("choiceq24D");
+
+if (chq24a.checked)
+{
+document.getElementById("choice24marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice24marker").innerHTML="&#10006";
+}	
+chq24a.disabled=true;
+chq24b.disabled=true;
+chq24c.disabled=true;
+chq24d.disabled=true;
+}
+
+function choiceq25check()
+{
+var chq25a=document.getElementById("choiceq25A");
+var chq25b=document.getElementById("choiceq25B");
+var chq25c=document.getElementById("choiceq25C");
+var chq25d=document.getElementById("choiceq25D");
+
+if (chq25d.checked)
+{
+document.getElementById("choice25marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice25marker").innerHTML="&#10006";
+}	
+chq25a.disabled=true;
+chq25b.disabled=true;
+chq25c.disabled=true;
+chq25d.disabled=true;
+}
+
+function choiceq26check()
+{
+var chq26a=document.getElementById("choiceq26A");
+var chq26b=document.getElementById("choiceq26B");
+var chq26c=document.getElementById("choiceq26C");
+var chq26d=document.getElementById("choiceq26D");
+
+if (chq26b.checked)
+{
+document.getElementById("choice26marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice26marker").innerHTML="&#10006";
+}	
+chq26a.disabled=true;
+chq26b.disabled=true;
+chq26c.disabled=true;
+chq26d.disabled=true;
+}
+
+function choiceq27check()
+{
+var chq27a=document.getElementById("choiceq27A");
+var chq27b=document.getElementById("choiceq27B");
+var chq27c=document.getElementById("choiceq27C");
+var chq27d=document.getElementById("choiceq27D");
+
+if (chq27a.checked)
+{
+document.getElementById("choice27marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice27marker").innerHTML="&#10006";
+}	
+chq27a.disabled=true;
+chq27b.disabled=true;
+chq27c.disabled=true;
+chq27d.disabled=true;
+}
+
+function choiceq28check()
+{
+var chq28a=document.getElementById("choiceq28A");
+var chq28b=document.getElementById("choiceq28B");
+var chq28c=document.getElementById("choiceq28C");
+var chq28d=document.getElementById("choiceq28D");
+
+if (chq28b.checked)
+{
+document.getElementById("choice28marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice28marker").innerHTML="&#10006";
+}	
+chq28a.disabled=true;
+chq28b.disabled=true;
+chq28c.disabled=true;
+chq28d.disabled=true;
+}
+
+function choiceq32check()
+{
+var chq32a=document.getElementById("choiceq32A");
+var chq32b=document.getElementById("choiceq32B");
+var chq32c=document.getElementById("choiceq32C");
+var chq32d=document.getElementById("choiceq32D");
+
+if (chq32d.checked)
+{
+document.getElementById("choice32marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice32marker").innerHTML="&#10006";
+}	
+chq32a.disabled=true;
+chq32b.disabled=true;
+chq32c.disabled=true;
+chq32d.disabled=true;
+}
+
+function choiceq34check()
+{
+var chq34a=document.getElementById("choiceq34A");
+var chq34b=document.getElementById("choiceq34B");
+var chq34c=document.getElementById("choiceq34C");
+var chq34d=document.getElementById("choiceq34D");
+
+if (chq34a.checked)
+{
+document.getElementById("choice34marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice34marker").innerHTML="&#10006";
+}	
+chq34a.disabled=true;
+chq34b.disabled=true;
+chq34c.disabled=true;
+chq34d.disabled=true;
+}
+
+function choiceq35check()
+{
+var chq35a=document.getElementById("choiceq35A");
+var chq35b=document.getElementById("choiceq35B");
+var chq35c=document.getElementById("choiceq35C");
+var chq35d=document.getElementById("choiceq35D");
+
+if (chq35c.checked)
+{
+document.getElementById("choice35marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice35marker").innerHTML="&#10006";
+}	
+chq35a.disabled=true;
+chq35b.disabled=true;
+chq35c.disabled=true;
+chq35d.disabled=true;
+}
+
+function choiceq38check()
+{
+var chq38a=document.getElementById("choiceq38A");
+var chq38b=document.getElementById("choiceq38B");
+var chq38c=document.getElementById("choiceq38C");
+var chq38d=document.getElementById("choiceq38D");
+
+if (chq38a.checked)
+{
+document.getElementById("choice38marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("choice38marker").innerHTML="&#10006";
+}	
+chq38a.disabled=true;
+chq38b.disabled=true;
+chq38c.disabled=true;
+chq38d.disabled=true;
+}
+
+//*******************Fill in Blanks*********************************************************************************************
+function fillq2checker()
+{
+var f2=document.getElementById("F2");
+if(f2.value.toLowerCase() == "troubleshooting" || f2.value.toLowerCase() == "trouble shooting")
+{
+document.getElementById("fill2marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("fill2marker").innerHTML="&#10006";
+}
+f2.disabled=true;
+}
+
+function fillq7checker()
+{
+var f7=document.getElementById("F7");
+if(f7.value.toLowerCase() == "post" || f7.value.toLowerCase() == "power on self test" || f7.value.toLowerCase() == "poweronselftest")
+{
+document.getElementById("fill7marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("fill7marker").innerHTML="&#10006";
+}
+f7.disabled=true;
+}
+
+function fillq8checker()
+{
+var f8=document.getElementById("F8");
+if(f8.value.toLowerCase() == "multimedia")
+{
+document.getElementById("fill8marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("fill8marker").innerHTML="&#10006";
+}
+f8.disabled=true;
+}
+
+function fillq13checker()
+{
+var f13=document.getElementById("F13");
+if(f13.value.toLowerCase() == "video editing" || f13.value.toLowerCase() == "videoediting")
+{
+document.getElementById("fill13marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("fill13marker").innerHTML="&#10006";
+}
+f13.disabled=true;
+}
+
+function fillq15checker()
+{
+var f15=document.getElementById("F15");
+if(f15.value.toLowerCase() == "aspect ratio" || f15.value.toLowerCase() == "aspectratio")
+{
+document.getElementById("fill15marker").innerHTML="&#10004";
+score++;
+}
+else
+{
+document.getElementById("fill15marker").innerHTML="&#10006";
+}
+f15.disabled=true;
+}
+
+function showScore()
+{
+document.getElementById("reslab").innerHTML = score + "/40";
+}
+
+
+var seconds = 0
+var timer = setInterval(upTimer, 1000);
+function upTimer() {
+++seconds;
+var hour = Math.floor(seconds / 3600);
+var minute = Math.floor((seconds - hour * 3600) / 60);
+var updSecond = seconds - (hour * 3600 + minute * 60);
+document.getElementById("countup").innerHTML = hour + ":" + minute + ":" + updSecond;
+
+if(minute==30)
+{
+clearInterval(timer);
+
+var tfq4t=document.getElementById("TFQ4T");
+var tfq4f=document.getElementById("TFQ4F");
+var tfq6t=document.getElementById("TFQ6T");
+var tfq6f=document.getElementById("TFQ6F");
+var tfq8t=document.getElementById("TFQ8T");
+var tfq8f=document.getElementById("TFQ8F");
+var tfq24t=document.getElementById("TFQ24T");
+var tfq24f=document.getElementById("TFQ24F");
+var tfq25t=document.getElementById("TFQ25T");
+var tfq25f=document.getElementById("TFQ25F");
+
+var m2=document.getElementById("M2");
+var m3=document.getElementById("M3");
+var m5=document.getElementById("M5");
+var m8=document.getElementById("M8");
+var m9=document.getElementById("M9");
+
+var chq1a=document.getElementById("choiceq1A");
+var chq1b=document.getElementById("choiceq1B");
+var chq1c=document.getElementById("choiceq1C");
+var chq1d=document.getElementById("choiceq1D");
+var chq2a=document.getElementById("choiceq2A");
+var chq2b=document.getElementById("choiceq2B");
+var chq2c=document.getElementById("choiceq2C");
+var chq2d=document.getElementById("choiceq2D");
+var chq4a=document.getElementById("choiceq4A");
+var chq4b=document.getElementById("choiceq4B");
+var chq4c=document.getElementById("choiceq4C");
+var chq4d=document.getElementById("choiceq4D");
+var chq6a=document.getElementById("choiceq6A");
+var chq6b=document.getElementById("choiceq6B");
+var chq6c=document.getElementById("choiceq6C");
+var chq6d=document.getElementById("choiceq6D");
+var chq8a=document.getElementById("choiceq8A");
+var chq8b=document.getElementById("choiceq8B");
+var chq8c=document.getElementById("choiceq8C");
+var chq8d=document.getElementById("choiceq8D");
+var chq9a=document.getElementById("choiceq9A");
+var chq9b=document.getElementById("choiceq9B");
+var chq9c=document.getElementById("choiceq9C");
+var chq9d=document.getElementById("choiceq9D");
+var chq10a=document.getElementById("choiceq10A");
+var chq10b=document.getElementById("choiceq10B");
+var chq10c=document.getElementById("choiceq10C");
+var chq10d=document.getElementById("choiceq10D");
+var chq11a=document.getElementById("choiceq11A");
+var chq11b=document.getElementById("choiceq11B");
+var chq11c=document.getElementById("choiceq11C");
+var chq11d=document.getElementById("choiceq11D");
+var chq14a=document.getElementById("choiceq14A");
+var chq14b=document.getElementById("choiceq14B");
+var chq14c=document.getElementById("choiceq14C");
+var chq14d=document.getElementById("choiceq14D");
+var chq15a=document.getElementById("choiceq15A");
+var chq15b=document.getElementById("choiceq15B");
+var chq15c=document.getElementById("choiceq15C");
+var chq15d=document.getElementById("choiceq15D");
+var chq16a=document.getElementById("choiceq16A");
+var chq16b=document.getElementById("choiceq16B");
+var chq16c=document.getElementById("choiceq16C");
+var chq16d=document.getElementById("choiceq16D");
+var chq17a=document.getElementById("choiceq17A");
+var chq17b=document.getElementById("choiceq17B");
+var chq17c=document.getElementById("choiceq17C");
+var chq17d=document.getElementById("choiceq17D");
+var chq18a=document.getElementById("choiceq18A");
+var chq18b=document.getElementById("choiceq18B");
+var chq18c=document.getElementById("choiceq18C");
+var chq18d=document.getElementById("choiceq18D");
+var chq19a=document.getElementById("choiceq19A");
+var chq19b=document.getElementById("choiceq19B");
+var chq19c=document.getElementById("choiceq19C");
+var chq19d=document.getElementById("choiceq19D");
+var chq20a=document.getElementById("choiceq20A");
+var chq20b=document.getElementById("choiceq20B");
+var chq20c=document.getElementById("choiceq20C");
+var chq20d=document.getElementById("choiceq20D");
+var chq22a=document.getElementById("choiceq22A");
+var chq22b=document.getElementById("choiceq22B");
+var chq22c=document.getElementById("choiceq22C");
+var chq22d=document.getElementById("choiceq22D");
+var chq24a=document.getElementById("choiceq24A");
+var chq24b=document.getElementById("choiceq24B");
+var chq24c=document.getElementById("choiceq24C");
+var chq24d=document.getElementById("choiceq24D");
+var chq25a=document.getElementById("choiceq25A");
+var chq25b=document.getElementById("choiceq25B");
+var chq25c=document.getElementById("choiceq25C");
+var chq25d=document.getElementById("choiceq25D");
+var chq26a=document.getElementById("choiceq26A");
+var chq26b=document.getElementById("choiceq26B");
+var chq26c=document.getElementById("choiceq26C");
+var chq26d=document.getElementById("choiceq26D");
+var chq27a=document.getElementById("choiceq27A");
+var chq27b=document.getElementById("choiceq27B");
+var chq27c=document.getElementById("choiceq27C");
+var chq27d=document.getElementById("choiceq27D");
+var chq28a=document.getElementById("choiceq28A");
+var chq28b=document.getElementById("choiceq28B");
+var chq28c=document.getElementById("choiceq28C");
+var chq28d=document.getElementById("choiceq28D");
+var chq32a=document.getElementById("choiceq32A");
+var chq32b=document.getElementById("choiceq32B");
+var chq32c=document.getElementById("choiceq32C");
+var chq32d=document.getElementById("choiceq32D");
+var chq34a=document.getElementById("choiceq34A");
+var chq34b=document.getElementById("choiceq34B");
+var chq34c=document.getElementById("choiceq34C");
+var chq34d=document.getElementById("choiceq34D");
+var chq35a=document.getElementById("choiceq35A");
+var chq35b=document.getElementById("choiceq35B");
+var chq35c=document.getElementById("choiceq35C");
+var chq35d=document.getElementById("choiceq35D");
+var chq38a=document.getElementById("choiceq38A");
+var chq38b=document.getElementById("choiceq38B");
+var chq38c=document.getElementById("choiceq38C");
+var chq38d=document.getElementById("choiceq38D");
+
+var f2=document.getElementById("F2");
+var f7=document.getElementById("F7");
+var f8=document.getElementById("F8");
+var f13=document.getElementById("F13");
+var f15=document.getElementById("F15");
+
+//===========================
+
+tfq4t.disabled=true;
+tfq4f.disabled=true;
+tfq6t.disabled=true;
+tfq6f.disabled=true;
+tfq8t.disabled=true;
+tfq8f.disabled=true;
+tfq24t.disabled=true;
+tfq24f.disabled=true;
+tfq25t.disabled=true;
+tfq25f.disabled=true;
+
+m2.disabled=true;
+m3.disabled=true;
+m5.disabled=true;
+m8.disabled=true;
+m9.disabled=true;
+
+chq1a.disabled=true;
+chq1b.disabled=true;
+chq1c.disabled=true;
+chq1d.disabled=true;
+chq2a.disabled=true;
+chq2b.disabled=true;
+chq2c.disabled=true;
+chq2d.disabled=true;
+chq4a.disabled=true;
+chq4b.disabled=true;
+chq4c.disabled=true;
+chq4d.disabled=true;
+chq6a.disabled=true;
+chq6b.disabled=true;
+chq6c.disabled=true;
+chq6d.disabled=true;
+chq8a.disabled=true;
+chq8b.disabled=true;
+chq8c.disabled=true;
+chq8d.disabled=true;
+chq9a.disabled=true;
+chq9b.disabled=true;
+chq9c.disabled=true;
+chq9d.disabled=true;
+chq10a.disabled=true;
+chq10b.disabled=true;
+chq10c.disabled=true;
+chq10d.disabled=true;
+chq11a.disabled=true;
+chq11b.disabled=true;
+chq11c.disabled=true;
+chq11d.disabled=true;
+chq14a.disabled=true;
+chq14b.disabled=true;
+chq14c.disabled=true;
+chq14d.disabled=true;
+chq15a.disabled=true;
+chq15b.disabled=true;
+chq15c.disabled=true;
+chq15d.disabled=true;
+chq16a.disabled=true;
+chq16b.disabled=true;
+chq16c.disabled=true;
+chq16d.disabled=true;
+chq17a.disabled=true;
+chq17b.disabled=true;
+chq17c.disabled=true;
+chq17d.disabled=true;
+chq18a.disabled=true;
+chq18b.disabled=true;
+chq18c.disabled=true;
+chq18d.disabled=true;
+chq19a.disabled=true;
+chq19b.disabled=true;
+chq19c.disabled=true;
+chq19d.disabled=true;
+chq20a.disabled=true;
+chq20b.disabled=true;
+chq20c.disabled=true;
+chq20d.disabled=true;
+chq22a.disabled=true;
+chq22b.disabled=true;
+chq22c.disabled=true;
+chq22d.disabled=true;
+chq24a.disabled=true;
+chq24b.disabled=true;
+chq24c.disabled=true;
+chq24d.disabled=true;
+chq25a.disabled=true;
+chq25b.disabled=true;
+chq25c.disabled=true;
+chq25d.disabled=true;
+chq26a.disabled=true;
+chq26b.disabled=true;
+chq26c.disabled=true;
+chq26d.disabled=true;
+chq27a.disabled=true;
+chq27b.disabled=true;
+chq27c.disabled=true;
+chq27d.disabled=true;
+chq28a.disabled=true;
+chq28b.disabled=true;
+chq28c.disabled=true;
+chq28d.disabled=true;
+chq32a.disabled=true;
+chq32b.disabled=true;
+chq32c.disabled=true;
+chq32d.disabled=true;
+chq34a.disabled=true;
+chq34b.disabled=true;
+chq34c.disabled=true;
+chq34d.disabled=true;
+chq35a.disabled=true;
+chq35b.disabled=true;
+chq35c.disabled=true;
+chq35d.disabled=true;
+chq38a.disabled=true;
+chq38b.disabled=true;
+chq38c.disabled=true;
+chq38d.disabled=true;
+
+f2.disabled=true;
+f7.disabled=true;
+f8.disabled=true;
+f13.disabled=true;
+f15.disabled=true;
+}
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

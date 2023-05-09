@@ -1,0 +1,54 @@
+﻿body
+{
+ background-image: url("bg2.png");
+ background-size: 100%;
+}
+
+h2
+{
+color:red;
+}
+
+h3
+{
+color:red;
+}
+
+img
+{
+cursor:pointer;
+}
+
+div.pw_container
+{
+width:250px;
+margin:auto;
+padding:25px;
+background-color:yellow;
+border:solid 2px red;
+border-radius:10px;
+text-align:center;
+}
+
+label
+{
+color:blue;
+font-weight:bold;
+font-size:1.2em;
+}
+
+input
+{
+color:red;
+font-weight:bold;
+padding:5px;
+font-size:1.2em;
+text-align:center;
+}
+
+div.res_an{text-align:right; padding-right:10px;}
+
+button{width:30px; height:30px; color:blue; font-weight:bold; cursor:pointer; background-color:yellow;}
+a{text-decoration:none;}
+
+b{color:red;}
